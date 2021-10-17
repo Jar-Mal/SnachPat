@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "PhotoView";
+
+    var source = TempData["path"];
+    if (source is not null)
+    {
+        source = TempData["path"].ToString();
+    }
+}
+
+<h1>PhotoView</h1>
+
+
+<div class="form-horizontal">
+    <hr />
+    <h2>Basic File Upload</h2>
+    @using (Html.BeginForm("PostPhoto",
+            "Home",
+            FormMethod.Post,
+            new { enctype = "multipart/form-data" }))
+    {
+        <input type="file" name="photo" id="photo" /><br><br>
+        <input type="submit" value="Upload Image" />
+    }
+
+
+</div>
+
+<img src=@source alt="Alternate Text" asp-append-version="true" />
