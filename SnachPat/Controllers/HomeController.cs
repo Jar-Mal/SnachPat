@@ -53,7 +53,7 @@ namespace SnachPat.Controllers
             var path = _photoService.GetNewestPhotoPath();
             return path is null ? "" : path;
         }
-
+        [HttpGet("Chat")]
         public ActionResult Chat()
         {
             return View();

@@ -907,4 +907,4 @@ C:\Users\maleszyk.jaroslaw\source\repos\SnachPat\SnachPat\obj\Debug\net5.0\Snach
 C:\Users\maleszyk.jaroslaw\source\repos\SnachPat\SnachPat\obj\Debug\net5.0\Razor\Views\Home\Chat.cshtml.g.cs
 C:\Users\maleszyk.jaroslaw\source\repos\SnachPat\SnachPat\obj\Debug\net5.0\Razor\Views\Home\Chatt.cshtml.g.cs
 C:\Users\sonye\Source\Repos\SnachPat\SnachPat\obj\Debug\net5.0\Razor\Views\Home\Chat.cshtml.g.cs
-C:\Users\sonye\Source\Repos\SnachPat\SnachPat\obj\Debug\net5.0\Razor\Views\Home\Chatt.cshtml.g.cs
+C:\Users\sonye\Source\Repos\SnachPat\SnachPat\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
