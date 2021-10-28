@@ -23,9 +23,13 @@ namespace SnachPat.Controllers
             _photoService = photoService;
         }
 
+        //public IActionResult Index()
+        //{
+        //    return View("~/Views/Home/Chat.cshtml");
+        //}
         public IActionResult Index()
         {
-            return View("~/Views/Home/Chat.cshtml");
+            return View("~/Views/Home/LoginUser.cshtml");
         }
         public IActionResult PostPhoto([FromForm] IFormFile photo)
         {
@@ -55,6 +59,11 @@ namespace SnachPat.Controllers
         }
         [HttpGet("Chat")]
         public ActionResult Chat()
+        {
+            return View();
+        }
+        [HttpGet("Login")]
+        public ActionResult LoginUser()
         {
             return View();
         }
